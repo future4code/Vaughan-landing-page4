@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #page-container {
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    height: 70px;
+    background-color: rgb(47, 52, 53);
+    display: flex;
+    justify-content: center;
+    padding: 0 16px;
+    align-items: center;
+  }
+  .center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+  }
+
+  .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+  }
+
+  footer {
+    background-color:  rgb(47, 52, 53);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
