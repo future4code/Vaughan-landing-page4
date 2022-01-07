@@ -16,7 +16,24 @@
   text-decoration: none;
   font: bold 24px/45px Helvetica, Sans-Serif;
   flex-wrap: wrap;
+  font-size: 1.8vw;
+  padding: 5vw;
 }
+
+  
+.item{
+  display: flex;
+    top: 0;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    z-index: 1;
+    padding: 0 1vh;
+    font-size: 1.2vw;
+}
+.item a{
+  color: white;
+  text-decoration: none;
+} 
 
 div li{
   font: bold 16px/32px Helvetica, Sans-Serif;
@@ -129,14 +146,6 @@ footer {
   align-items: center;
   box-shadow: 0px -10px 50px #000000 ;
 }
-.item{
-  display: flex;
-    top: 0;
-    color: rgb(255, 255, 255);
-    justify-content: space-between;
-    z-index: 1;
-    padding: 0 1vh;
-}
 
 #esquerda{
   
@@ -171,10 +180,6 @@ padding: 10px;
 main{
   background-color: rgb(60, 67, 75);
 }
-.item a{
-  color: white;
-  text-decoration: none;
-} 
 
 
 @media screen and (min-device-width : 320px) and (max-device-width : 800px){
