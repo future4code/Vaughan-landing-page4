@@ -6,6 +6,7 @@
 }
 
 #page-container a {
+
   
   font-weight: 100;
   display: flex;
@@ -15,14 +16,18 @@
   align-items: center;
   color: white;
   text-decoration: none;
-  font: 20px Helvetica ;
+
+  font: 10px/10px Helvetica, Sans-Serif;
   flex-wrap: wrap;
- 
+  font-size: 1.5vw;
   padding: 5vw;
- 
+  color: cadetblue;
+}
+#page-container h1 {
+  font-weight: 100;
+
 }
 
-  
 .item{
   display: flex;
     top: 0;
