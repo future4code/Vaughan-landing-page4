@@ -189,3 +189,16 @@ grid-template-columns: 1;
     min-width: 50%;
   }
 } 
+
+.posiçao-quemsomos {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: rgba(0, 0, 0, 0) 1px solid;
+  background-color: #dbe3eb;
+}
+.lugar {
+  justify-content: center;
+  align-items: center;
+}
