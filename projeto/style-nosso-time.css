@@ -141,6 +141,10 @@ footer {
     max-height: 200px;
   }
 
+  h1 {
+    font-size: 25px;
+  }
+
   #texto-introdutorio > p {
     font-size: 20px;
   }
