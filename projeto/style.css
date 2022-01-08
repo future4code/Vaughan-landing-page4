@@ -255,15 +255,3 @@ grid-template-columns: 1;
   align-items: flex-end;
 justify-content: flex-end;
 }
-.btn1 { 
-  color:#050; 
-  font: bold 94% 'trebuchet ms',helvetica,sans-serif; 
-  background-color:rgb(174, 199, 199); 
-  border:1px solid; 
-  border-color: rgb(174, 199, 199); 
-  max-width: 200px;
-  max-height:280px;
-}
-.color2{
-  color: #000000;
-}
