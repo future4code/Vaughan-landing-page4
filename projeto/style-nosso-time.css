@@ -14,13 +14,6 @@ div {
   padding: 20px;
 }
 
-/* #texto-introdutorio {
-    display: grid;
-    grid-template-rows: 1fr 70px 1fr;
-    justify-content: center;
-    align-items: center;
-} */
-
 #texto-introdutorio {
   display: flex;
   flex-direction: column;
