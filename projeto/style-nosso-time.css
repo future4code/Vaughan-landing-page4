@@ -29,12 +29,14 @@ div {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    font: 16px Helvetica, Sans-Serif;
 }
 
 #texto-introdutorio > img{
     width: 70%;
     height: 50%;
     align-self: center;
+    
 }
 
 #texto-introdutorio > p {
@@ -58,6 +60,7 @@ div {
     height: 80%;
 }
 
+
 #foto-esquerda, #foto-esquerda-2 {
     background-color: rgb(174, 199, 199);
 
@@ -75,3 +78,22 @@ div {
 footer {
     margin-top: 15px;
 }
+
+
+@media screen and (min-device-width : 10px) and (max-device-width : 600px){
+    .desenvolvedores-img-text {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        font-size: 25px;
+        text-align: center;
+        padding: 5px 8vw;
+        font: 16px/32px Helvetica, Sans-Serif;
+        margin-bottom: 20px;
+    }
+    .imagens-desenvolvedores {
+        width: 40%;
+        height: 40%;
+    }
+
+} 
