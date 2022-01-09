@@ -47,8 +47,10 @@ div {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     font-size: 25px;
-    border: 1px solid black;
     text-align: center;
+    padding: 5px 8vw;
+    font: 16px/32px Helvetica, Sans-Serif;
+    margin-bottom: 20px;
 }
 
 .imagens-desenvolvedores {
@@ -58,12 +60,12 @@ div {
 
 #foto-esquerda, #foto-esquerda-2 {
     background-color: rgb(174, 199, 199);
-    min-height: 464.633px;
+
 }
 
 #foto-direita, #foto-direita-2 {
     background-color: rgb(59, 97, 98);
-    min-height: 464.633px;
+   
 }
 
 #alinhar-foto-direita,#alinhar-foto-direita-2 {
