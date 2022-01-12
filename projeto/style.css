@@ -1,0 +1,281 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#page-container a {
+
+  
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+
+  font: 10px/10px Helvetica, Sans-Serif;
+  flex-wrap: wrap;
+  font-size: 1.5vw;
+  padding: 5vw;
+  color: cadetblue;
+}
+#page-container h1 {
+  font-weight: 100;
+
+}
+
+.item{
+  display: flex;
+    top: 0;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    z-index: 1;
+    padding: 0 1vh;
+    font-size: 1.2vw;
+}
+.item a{
+  color: white;
+  text-decoration: none;
+} 
+
+div li{
+  font: bold 16px/32px Helvetica, Sans-Serif;
+  
+  font-weight: 100;
+}
+
+header {
+  height: 70px;
+  background-color: #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  align-items: center;
+  color: white;
+ 
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: rgba(0, 0, 0, 0) 1px solid;
+  box-shadow: 0px 10px 60px #000000 ;
+}
+
+
+.foto {
+  display: flex;
+  border: black 1px solid;
+  width: 80vh ;
+  height: 80vh ;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.frase-da-foto {
+  border: black 1px solid;
+  width: 80vh ;
+  height: 80vh ;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.espaco {
+  height: 10vh;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.frase-de-efeito {
+  display: flex;
+  width: 80vh ;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+
+.posiçao-da-parte-inferior {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: rgba(0, 0, 0, 0) 1px solid;
+  background-color: #f2f2f2;
+}
+
+.segunda-foto {
+  display: flex;
+  border: rgba(0, 0, 0, 0) 1px solid;
+  width: 80vh ;
+  height: 80vh ;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.frase-segunda-foto li {
+  border: rgba(0, 0, 0, 0) 1px solid;
+  height: 33vh;
+  width: 38vw;
+  margin: 0px 10px;
+  display: flex;
+  font-size: 1.2vw;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: normal;
+  align-items: center;
+  font-weight: 100;
+}
+
+.frase-segunda-foto {
+  display: flex;
+}
+
+.foto-casual {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5vh;
+}
+
+
+footer {
+  background-color:  rgb(47, 52, 53);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px -10px 50px #000000 ;
+  font: bold 16px/32px Helvetica, Sans-Serif;
+  font-weight: 100;
+  color: aliceblue;
+}
+
+#esquerda{
+  
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+
+}
+
+
+
+
+h2 {
+position: absolute;
+top: 50%;
+left: 26%;
+width: 100%;
+}
+
+/* 
+h2 span {
+color: white;
+font: bold 24px/45px Helvetica, Sans-Serif;
+letter-spacing: -1px;  
+background: rgb(0, 0, 0); /* fallback color 
+background: rgba(0, 0, 0, 0.7);
+padding: 10px;
+
+ */
+
+
+main{
+  background-color: rgb(60, 67, 75);
+}
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 800px){
+  .image{
+    display: grid;
+grid-template-columns: 1;
+    min-width: 50%;
+  }
+} 
+
+.posiçao-quemsomos {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: rgba(0, 0, 0, 0) 1px solid;
+  background-color: #dbe3eb;
+ 
+}
+.lugar {
+  justify-content: center;
+  align-items: center;
+}
+
+/*p1 e para fonts */
+
+.p1
+{
+  font-family: bold 16px/32px Helvetica, Sans-Serif;
+}
+
+.box-produtos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box > div {
+  border: solid black 1px;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.tamanho-IMG{
+  max-width: 130px;
+  max-height:180px;
+}
+#t2{
+  display: flex;
+  align-items: flex-end;
+justify-content: flex-end;
+}
+
+
+.btn1 {
+  padding: 10px 80px;
+  margin: 10px;
+  border: 0;
+  background-color: cadetblue;
+}
+
+.btn1:hover {
+  padding: 10px 80px;
+  margin: 10px;
+  border: 0;
+  background-color: rgb(59, 97, 98);
+}
+
+.btn1:active {
+  padding: 10px 80px;
+  margin: 10px;
+  border: 0;
+  background-color: rgb(14, 24, 23);
+  border-radius: 5px 5px;
+}
+
+.color2{
+  color: #000000;
+}
